@@ -1,9 +1,13 @@
-import TopBar from "./topbar/TopBar";
+import BotBar from "./components/botbar/BotBar";
+import Topbar from "./components/topbar/TopBar";
+import AboutMe from "./pages/aboutme/AboutMe";
 
 function App() {
   return (
     <>
-      <TopBar></TopBar>
+      <Topbar />
+      <AboutMe />
+      <BotBar />
     </>
   );
 }

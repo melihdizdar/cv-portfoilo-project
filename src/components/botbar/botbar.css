@@ -1,0 +1,52 @@
+.bot{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botLeft{
+    flex: 3;
+    margin: 70px;
+}
+
+.botLeftText{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-size: small;
+    text-align: left;
+}
+
+.botRight{
+    flex: 5;
+}
+
+.botList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.botListItemHeader{
+    margin-right: 130px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:text;
+    text-align: center;
+}
+
+.botListItemText{
+    margin-right: 100px;
+    font-size: 15px;
+    font-weight:normal;
+    cursor:text;
+    text-align: center;
+}
