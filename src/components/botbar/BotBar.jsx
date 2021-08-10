@@ -12,13 +12,24 @@ export default function BotBar() {
             <div className="botRight">
                 <ul className="botList">
                     <li className="botListItemHeader">Call</li>
-                    <li className="botListItemHeader">Write</li>
-                    <li className="botListItemHeader">Follow</li>
+                    <li className="botListItemText">123-456-789</li>
                 </ul>
+            </div>
+            <div className="botRight">
                 <ul className="botList">
-                    <li className="botListItemText">123-456-7890</li>
+                    <li className="botListItemHeader">Write</li>
                     <li className="botListItemText">info@melihdizdar.com</li>
-                    <li className="botListItemText">Social Media Icons</li>
+                </ul>
+            </div>
+            <div className="botRight">
+                <ul className="botList">
+                    <li className="botListItemIconHeader">Follow</li>
+                    <li className="botListItemIcon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-instagram"></i>
+                    </li>
                 </ul>
             </div>
         </div>

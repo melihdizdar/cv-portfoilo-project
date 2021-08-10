@@ -24,11 +24,11 @@
 }
 
 .botRight{
-    flex: 5;
+    flex: 1;
 }
 
 .botList{
-    display: flex;
+    display:inherit;
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -36,17 +36,39 @@
 }
 
 .botListItemHeader{
-    margin-right: 130px;
-    font-size: 15px;
+    margin-right: 80px;
+    font-size: 14px;
     font-weight: bold;
+    cursor:text;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.botListItemText{
+    margin-right: 80px;
+    font-size: 12px;
+    font-weight:normal;
     cursor:text;
     text-align: center;
 }
 
-.botListItemText{
-    margin-right: 100px;
-    font-size: 15px;
-    font-weight:normal;
+.botListItemIcon{
+    margin:3;
+    margin-right: 80px;
+    font-size: 12px;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+}
+.botListItemIconHeader{
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: bold;
     cursor:text;
     text-align: center;
+    margin-bottom: 2px;
+}
+.fab{
+    margin:8px;
+    margin-bottom: 1px;
 }
