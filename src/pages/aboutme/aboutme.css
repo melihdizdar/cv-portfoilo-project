@@ -9,11 +9,17 @@
     z-index: 0;
     position: sticky;
     display: flex;
+    box-shadow: -5px 0 5px -5px #C3B09E;
+    -webkit-box-shadow: -5px 0 5px -5px #C3B09E;
+    -moz-box-shadow: -5px 0 5px -5px #C3B09E;
   }
 
 .aboutmeLeft{
     flex: 2;
-    background-color: #f4ece6;
+    background-color: #f4ece6;  
+    box-shadow: 0 11px 8px -6px #C3B09E;
+    -webkit-box-shadow: 0 11px 8px -6px #C3B09E;
+    -moz-box-shadow: 0 11px 8px -6px #C3B09E;
   }
 
 .aboutmeRight{
