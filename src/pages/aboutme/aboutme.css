@@ -16,7 +16,7 @@
 
 .aboutmeLeft{
   flex: 2;
-  background-color: #f4ece6;  
+  background-color:#f4ece6;  
   box-shadow: 0 11px 8px -6px #C3B09E;
   -webkit-box-shadow: 0 11px 8px -6px #C3B09E;
   -moz-box-shadow: 0 11px 8px -6px #C3B09E;
@@ -30,10 +30,66 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .image{
   width: 180px;
   height: 171px;
+  margin-left: 15px;
+}
+
+.leftname{
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.leftsurname{
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.bluebar{
+  height:2px; 
+  width:30%; 
+  border-width:0; 
+  color:blue; 
+  background-color:blue;
+  margin-left: 72px;
+  margin-top: 10px;
+}
+
+.lefttitle{
+  margin:inherit;
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+.sociallinks{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  position:fixed;
+  bottom: 1;
+  display: flex;
+  align-items: center;
+  margin-top: 340px;
+}
+
+.sociallinkslist{
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 85px;
 }
