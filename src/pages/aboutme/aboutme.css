@@ -24,6 +24,7 @@
 
 .aboutmeRight{
   flex: 3;
+  margin-left: 40px;
 }
 
 .aboutmeLeftItem{
@@ -93,4 +94,50 @@
   margin-top: 15px;
   margin-left: 85px;
   cursor: pointer;
+}
+
+.fab{
+  color: black;
+}
+
+.rightHeader{
+  font-weight: bolder;
+  font-size: 75px;
+  font-family: 'Righteous', cursive;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.rightTitle{
+  font-weight: normal;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+  text-align: left;
+  margin-top: 2px;
+}
+
+.rightButtons{
+  margin-top: 30px;
+}
+
+.button{
+  border-radius: 50px;
+  background-color: #0a58ca;
+  color: white;
+  border-color: #0a58ca;
+}
+
+.button:hover{
+  border-radius: 50px;
+  background-color: white;
+  color: #0a58ca;
+  border-color: #0a58ca;
+}
+
+p{
+  margin-top: 30px;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
 }

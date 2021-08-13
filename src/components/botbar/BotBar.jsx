@@ -25,10 +25,10 @@ export default function BotBar() {
                 <ul className="botList">
                     <li className="botListItemIconHeader">Follow</li>
                     <li className="botListItemIcon">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.facebook.com/melihdizdarr/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/benmelko"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/melihdizdar/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/melihdizdarr/"><i class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>
