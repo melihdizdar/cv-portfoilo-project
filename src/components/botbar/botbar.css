@@ -1,12 +1,13 @@
 .bot{
     width: 100%;
-    height: 100px;
+    height: 90px;
     background-color: white;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    position:absolute;
-    bottom:initial;
+    position:fixed;
     display: flex;
+    left: 0;
+    bottom: 0;
 }
 
 .botLeft{
