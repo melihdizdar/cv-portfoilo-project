@@ -1,6 +1,3 @@
-body {
-  background: #e6dace
-}
 body:before {
   content:'';
   position: fixed;
