@@ -34,8 +34,7 @@ export default function AboutMe() {
                             <Button variant="primary" size="default" className="button">Resume</Button>&nbsp;
                             <Button variant="primary" size="default" className="button">Projects</Button>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec odio eu elit porttitor finibus. Aliquam pellentesque massa sed libero placerat eleifend.</p>
-                        <p>Nam mollis enim neque, nec fermentum mauris consectetur non. Suspendisse efficitur dictum odio. Ut posuere risus nunc, in bibendum.</p>
+                        <p>I completed my high school education in the department of information technologies, in the field of web design. During my high school years, I developed sites related to asp.net, html and css. I graduated from Sakarya University of Applied Sciences Computer Programming department in 2 years and in my associate years I developed projects using html, css, bootstrap4, asp.net, arduino, c#, windows form project and php languages. Now I am developing projects with ReactJS.</p>
                     </div>
                 </div>
             </div>
