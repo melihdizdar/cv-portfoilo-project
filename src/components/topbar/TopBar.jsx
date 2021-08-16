@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./topbar.css"
 
 export default function Topbar() {
@@ -12,10 +13,18 @@ export default function Topbar() {
             </div>
             <div className="topRight">
                 <ul className="topList">
-                    <li className="topListItem">ABOUT ME</li>
-                    <li className="topListItem">RESUME</li>
-                    <li className="topListItem">PROJECTS</li>
-                    <li className="topListItem">CONTACT</li>
+                    <li className="topListItem">
+                        <Link to="/">ABOUT ME</Link>
+                    </li>
+                    <li className="topListItem">
+                    <Link to="/resume">RESUME</Link>
+                    </li>
+                    <li className="topListItem">
+                        <Link to="/projects">PROJECTS</Link>
+                    </li>
+                    <li className="topListItem">
+                        <Link to="/contact">CONTACT</Link>
+                    </li>
                 </ul>
             </div>
         </div>
