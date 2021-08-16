@@ -1,3 +1,11 @@
+.aboutbg:before{
+  content:'';
+  position:fixed;
+  height: 100%;
+  width: 65%;
+  left: 35%;
+  background: white;
+}
 .about{
   display: grid;
   place-items: center;
@@ -5,11 +13,11 @@
 .aboutme{
   background-color: #f4ece6;
   width: 70%;
-  height:510px;/*500*/
+  height:500px;
   position: sticky;
   display: flex;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 /* Left */
 .aboutmeLeft{
