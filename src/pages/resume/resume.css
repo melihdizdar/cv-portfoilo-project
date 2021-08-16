@@ -13,34 +13,13 @@
 .headerContent{
     flex: 3;
 }
-.experience{
+/*Experience and Download CV Button*/
+.experience,.education{
     flex: 3;
     display: flex;
     margin-bottom: 5%;
 }
-.square{
-    height: 20px;
-    width: 20px;
-    background-color: blue;
-    align-self: center;
-}
-.resumeTitleList{
-    display: flex;
-    justify-content: center;
-    margin:15%;
-    padding: 0;
-    list-style: none;
-}
-.resumeTitle{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-left: 10px;
-    font-weight: bolder;
-    font-size: 25px;
-    font-family: 'Righteous', cursive;
-}
-.experienceLeft{
+.experienceLeft,.educationLeft{
     flex: 3;
     display: flex;
     justify-content:flex-start;
@@ -53,6 +32,31 @@
     display: flex;
     justify-content:flex-end;
 }
+/*Resume Text and Blue Square*/
+.resumeTitleList{
+    display: flex;
+    justify-content: center;
+    margin:15%;
+    padding: 0;
+    list-style: none;
+}
+.square{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    align-self: center;
+}
+.resumeTitle{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+/*Button CSS*/
 .button{
     border-radius: 50px;
     background-color: #0a58ca;
@@ -65,45 +69,102 @@
     color: #0a58ca;
     border-color: #0a58ca;
 }
-.experienceContent{
+/*Experience and Education Information*/
+.experienceContent,.educationContent{
     background-color: white;
     width: 100%;
-    height: 40%;
+    height: 250px;
     display: flex;
     margin-bottom: 10%;
 }
-.experienceContentLeft{
+.experienceContentLeft,.educationContentLeft{
     flex: 3;
     display: flex;
 }
-.experienceContentRight{
+.experienceContentRight,.educationContentRight{
     flex: 3;
-    margin-top: 10%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-.experienceCard{
+.experienceCard,.educationCard{
+    display: grid;
     border: none;
     background-color:white;
     border-style: none;
     text-align: left;
-    margin-top: 30%;
+    place-items: center;
+}
+.experienceCardHeader,.educationCardHeader{
+    color: blue;
+}
+.experienceCardPosition,.educationCardPosition{
+    margin-bottom: 5%;
+}
+.experienceCardCompanyName,.educationCardCompanyName{
+    margin-bottom: 3%;
+    color:#6c89a3;
+    font-size: 15px;
+}
+.experienceCardCompanyLocation,.educationCardCompanyLocation{
+    color:#6c89a3;
+    font-size: 15px;
 }
 p{
-    margin-top: 30px;
     text-align: left;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     text-align: left;
 }
-.experience{
-    flex: 3;
-    display: flex;
+/*Skillset and Languages*/
+.skillset{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    display: grid;
+    margin-bottom: 25%;
+}
+.skillsetTopHeader{
+    font-size: 20px;
+    font-weight: bolder;
     margin-bottom: 5%;
 }
-.educationInside{
-    flex: 3;
-    display: flex;
-    justify-content:flex-start;
+.skillsetBottomHeader{
+    font-size: 20px;
     font-weight: bolder;
-    font-size: 25px;
-    font-family: 'Righteous', cursive;
+    margin-bottom: 5%;
+}
+.skillsetTop{
+    flex: 3;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.skillsetBottom{
+    flex: 3;
+    margin-left: 5%;
+}
+.skillsetTopList{
+    margin-right: 25%;
+    margin-left: 1%;
+}
+.skillsetTopListItem{
+    font-size: 15px;
+}
+.skillsetBottomList{
+    margin-right: 25%;
+    margin-left: 1%;
+}
+.skillsetBottomListItem{
+    font-size: 15px;
+}
+.fas{
+    color: blue;
+    margin-left: -15%;
+    margin-right: 10px;
+}
+.fas-ul{
+    column-count: 2;
+    column-gap: 0px;
+    list-style: none;
 }
