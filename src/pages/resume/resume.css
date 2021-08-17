@@ -57,13 +57,13 @@
     font-family: 'Righteous', cursive;
 }
 /*Button CSS*/
-.button{
+.experienceRight > .button{
     border-radius: 50px;
     background-color: #0a58ca;
     color: white;
     border-color: #0a58ca;
 }
-.button:hover{
+.experienceRight > .button:hover{
     border-radius: 50px;
     background-color: #e6dace;
     color: #0a58ca;
@@ -80,6 +80,7 @@
 .experienceContentLeft,.educationContentLeft{
     flex: 3;
     display: flex;
+    box-shadow: 0 5px 10px -5px #e6dace;
 }
 .experienceContentRight,.educationContentRight{
     flex: 3;
@@ -116,6 +117,7 @@
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     text-align: left;
+    box-shadow: 0 5px 5px -5px #e6dace;
 }
 /*Skillset and Languages*/
 .skillset{

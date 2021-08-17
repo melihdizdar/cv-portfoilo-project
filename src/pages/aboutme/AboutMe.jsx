@@ -32,8 +32,8 @@ export default function AboutMe() {
                             <div className="rightHeader">Hello</div>
                             <div className="rightTitle">Here's who I am and what I do</div>
                             <div className="rightButtons">
-                                <Button variant="primary" size="default" className="button">Resume</Button>&nbsp;
-                                <Button variant="primary" size="default" className="button">Projects</Button>
+                                <Button variant="primary" size="default" className="button" href="/resume">Resume</Button>&nbsp;
+                                <Button variant="primary" size="default" className="button"href="/projects">Projects</Button>
                             </div>
                             <p>I completed my high school education in the department of information technologies, in the field of web design. During my high school years, I developed sites related to asp.net, html and css. I graduated from Sakarya University of Applied Sciences Computer Programming department in 2 years and in my associate years I developed projects using html, css, bootstrap4, asp.net, arduino, c#, windows form project and php languages. Now I am developing projects with ReactJS.</p>
                         </div>
