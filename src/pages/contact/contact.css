@@ -45,4 +45,85 @@
 }
 .contactForm{
     margin-bottom: 30%;
+    display: flex;
+}
+/*Contact Flex Design*/
+.contactFormLeft{
+    flex: 1;
+}
+.contactFormCenter{
+    flex: 6;
+    margin-top: 10%;
+}
+.contactFormRight{
+    flex: 1;
+}
+.namegroup{
+    flex: 3;
+    display: flex;
+}
+.namegroupCenter{
+    flex: 1;
+}
+/*Form Class*/
+input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+input:hover[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.textareaClass{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+.textareaClass:hover{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.nameClass{
+    width: 40%;
+    flex: 3;
+}
+.surnameClass{
+    width: 40%;
+    flex: 3;
+}
+.emailClass{
+    width: 100%;
+}
+.subjectClass{
+    width: 100%;
+}
+.messageClass{
+    width: 100%;
+}
+/*Button CSS*/
+.button{
+    border-radius: 50px;
+    background-color: #0a58ca;
+    color: white;
+    border-color: #0a58ca;
+    width: 150px;
+}
+.button:hover{
+    border-radius: 50px;
+    background-color: white;
+    color: #0a58ca;
+    border-color: #0a58ca;
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch} from "react-router-dom";
 import BotBar from "./components/botbar/BotBar";
 import Topbar from "./components/topbar/TopBar";
 import Resume from "./pages/resume/Resume";
