@@ -8,7 +8,7 @@ export default function Topbar() {
                 <ul className="topText">
                     <li className="square"></li>
                     <li className="topName">Melih Dizdar</li>
-                    <li className="topTitle">/ WEB DEVELOPER</li>
+                    <li className="topTitle">/ FRONT-END DEVELOPER</li>
                 </ul>
             </div>
             <div className="topRight">

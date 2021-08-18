@@ -13,7 +13,7 @@ export default function AboutMe() {
                                 <Card.Title className="leftname">Melih</Card.Title>
                                 <Card.Title className="leftsurname">Dizdar</Card.Title>
                                 <div className="bluebar"></div>
-                                <Card.Title className="lefttitle">WEB DEVELOPER</Card.Title>
+                                <Card.Title className="lefttitle">FRONT-END DEVELOPER</Card.Title>
                             </Card.Body>
                         </Card>
                         <div className="sociallinks">
