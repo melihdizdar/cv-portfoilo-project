@@ -22,6 +22,7 @@
     justify-content: center;
     font-size: small;
     text-align: left;
+    color:#276b8a;
 }
 
 .botRight{
@@ -43,6 +44,7 @@
     cursor:text;
     text-align: center;
     margin-bottom: 5px;
+    color:  #09567A;
 }
 
 .botListItemText{
@@ -51,6 +53,7 @@
     font-weight:normal;
     cursor:text;
     text-align: center;
+    color: #276b8a;
 }
 
 .botListItemIcon{
@@ -68,9 +71,9 @@
     cursor:text;
     text-align: center;
     margin-bottom: 2px;
+    color:  #09567A;
 }
 .fab{
     margin:8px;
     margin-bottom: 1px;
-    color: black;
 }
