@@ -1,3 +1,4 @@
+/*Projects page settings*/
 .projects{
     display: flex;
 }
@@ -7,8 +8,119 @@
 .projectsCenter{
     flex: 6;
 }
+/*slider*/
+.sliderStage{
+    margin-bottom: 15%;
+    
+}
 .slider{
-    margin-top: 10%;
     width: 100%;
     height: 400px;
+}
+/*header*/
+.projectsHeader{
+    display: grid;
+}
+.projectsHeaderContent{
+    flex: 3;
+}
+.projectsTitleList{
+    display: flex;
+    justify-content: center;
+    margin:10%;
+    padding: 0;
+    list-style: none;
+}
+.projectsTitleList > .square{
+    height: 20px;
+    width: 20px;
+    background-color: #8CD4F4;
+    align-self: center;
+}
+.projectsTitle{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+/*Projects card*/
+.projectsCardStage{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20%;
+}
+.projectsCardStageLeft{
+    flex: 6;
+    background-color: white;
+    display: grid;
+}
+.projectsCardStageRight{
+    flex: 4;
+    width: 100%;
+}
+.projectsCardStageRight > .image{
+    width: 100%;
+    height: 100%;
+}
+/*Project cards content*/
+.projectsCardStageLeftTop{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.projectsCardStageLeftBottom{
+    margin-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.entersite{
+    color: #108CC6;
+    text-decoration: none;
+}
+.entersite:hover{
+    color: #09567A;
+    text-decoration: none;
+}
+.projectsCardStageLeftTopHeader{
+    display: flex;
+}
+.projectsCardStageLeftTopHeaderL
+{
+    flex: 1;
+}
+.projectsCardStageLeftTopHeaderR
+{
+    flex: 20;
+}
+.rectangle{
+    width: 15px;
+    height: 60px;
+    background: #8CD4F4;
+}
+.projectsCardStageLeftBottom > p{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #09567A;
+}
+.projectsCardHeader
+{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #0B648D;
+    font-weight: bolder;
+}
+.projectsCardTitle{
+    text-align: left;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #09567a;
 }

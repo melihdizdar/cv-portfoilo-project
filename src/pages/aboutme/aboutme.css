@@ -11,7 +11,7 @@
   place-items: center;
 }
 .aboutme{
-  background-color: #f4ece6;
+  background-color: #108CC6;
   width: 70%;
   height:500px;
   position: sticky;
@@ -22,14 +22,13 @@
 /* Left */
 .aboutmeLeft{
   flex: 2;
-  background-color: #f4ece6;
+  background-color: #108CC6;
   position: flex;
   margin-top: 5%;
-  box-shadow: 0 5px 10px -5px #e6dace;
 }
 .Card{
   border: none;
-  background-color:#f4ece6;
+  background-color:#108CC6;
   border-style: none;
   text-align: center;
   align-items: center;
@@ -44,19 +43,21 @@
   font-size: 25px;
   font-family: 'Righteous', cursive;
   text-align: center;
+  color: white;
 }
 .leftsurname{
   font-weight: bolder;
   font-size: 25px;
   font-family: 'Righteous', cursive;
   text-align: center;
+  color: white;
 }
-.bluebar{
+.bar{
   height:2px; 
   width:30%; 
   border-width:0; 
-  color:blue; 
-  background-color:blue;
+  color:white; 
+  background-color:white;
   margin-left: 35%;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -66,6 +67,7 @@
   font-size: 18px;
   letter-spacing: 5px;
   margin-bottom: 25%;
+  color: white;
 }
 .sociallinks{
   width: 100%;
@@ -76,7 +78,6 @@
   letter-spacing: 15px;
   display: grid;
   place-items: center;
-  box-shadow: 0 5px 5px -5px #e6dace;
 }
 .sociallinkslist{
   list-style: none;
@@ -85,7 +86,7 @@
   margin-left: -5%;
 }
 .fab{
-  color: black;
+  color: #09567A;
 }
 /* Right */
 .aboutmeRight{
@@ -105,6 +106,7 @@
   font-family: 'Righteous', cursive;
   text-align: left;
   margin-top: -10px;
+  color: #108CC6;
 }
 .rightTitle{
   font-weight: normal;
@@ -112,6 +114,7 @@
   font-family: 'Righteous', cursive;
   text-align: left;
   margin-top: 2px;
+  color: #09567A;
 }
 .rightButtons{
   margin-top: 30px;
@@ -134,4 +137,5 @@
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   text-align: left;
+  color: #09567A;
 }

@@ -12,17 +12,18 @@ export default function AboutMe() {
                             <Card.Body>
                                 <Card.Title className="leftname">Melih</Card.Title>
                                 <Card.Title className="leftsurname">Dizdar</Card.Title>
-                                <div className="bluebar"></div>
+                                <div className="bar"></div>
                                 <Card.Title className="lefttitle">FRONT-END DEVELOPER</Card.Title>
                             </Card.Body>
                         </Card>
                         <div className="sociallinks">
                             <ul>
                                 <li className="sociallinkslist">
-                                    <a href="https://www.facebook.com/melihdizdarr/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://twitter.com/benmelko"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/in/melihdizdar/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.instagram.com/melihdizdarr/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/melihdizdarr/"><i class="fab fa-facebook-f" title="Facebook"></i></a>
+                                    <a href="https://www.instagram.com/melihdizdarr/"><i class="fab fa-instagram" title="Instagram"></i></a>
+                                    <a href="https://twitter.com/benmelko"><i class="fab fa-twitter" title="Twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/melihdizdar/"><i class="fab fa-linkedin-in" title="Linkedin"></i></a>
+                                    <a href="https://github.com/melihdizdar"><i class="fab fa-github" title="Github"></i></a>
                                 </li>
                             </ul>
                         </div>

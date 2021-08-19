@@ -26,6 +26,7 @@
     font-weight: bolder;
     font-size: 25px;
     font-family: 'Righteous', cursive;
+    color: white;
 }
 .experienceRight{
     flex: 3;
@@ -43,7 +44,7 @@
 .resumeTitleList > .square{
     height: 20px;
     width: 20px;
-    background-color: blue;
+    background-color: #8CD4F4;
     align-self: center;
 }
 .resumeTitle{
@@ -55,19 +56,21 @@
     font-weight: bolder;
     font-size: 25px;
     font-family: 'Righteous', cursive;
+    color: white;
 }
 /*Button CSS*/
 .experienceRight > .button{
     border-radius: 50px;
-    background-color: #0a58ca;
+    background-color: #108CC6;
     color: white;
-    border-color: #0a58ca;
+    border-color: #108CC6;
+    width: 150px;
 }
 .experienceRight > .button:hover{
     border-radius: 50px;
-    background-color: #e6dace;
-    color: #0a58ca;
-    border-color: #0a58ca;
+    background-color: #09567a;
+    color: white;
+    border-color: #108CC6;
 }
 /*Experience and Education Information*/
 .experienceContent,.educationContent{
@@ -80,7 +83,6 @@
 .experienceContentLeft,.educationContentLeft{
     flex: 3;
     display: flex;
-    box-shadow: 0 5px 10px -5px #e6dace;
 }
 .experienceContentRight,.educationContentRight{
     flex: 3;
@@ -98,18 +100,19 @@
     place-items: center;
 }
 .experienceCardHeader,.educationCardHeader{
-    color: blue;
+    color: #108CC6;
 }
 .experienceCardPosition,.educationCardPosition{
     margin-bottom: 5%;
+    color: #0B648D;
 }
 .experienceCardCompanyName,.educationCardCompanyName{
     margin-bottom: 3%;
-    color:#6c89a3;
+    color:#09567A;
     font-size: 15px;
 }
 .experienceCardCompanyLocation,.educationCardCompanyLocation{
-    color:#6c89a3;
+    color:#09567A;
     font-size: 15px;
 }
 .experienceContent,.educationContent > p{
@@ -117,7 +120,7 @@
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    box-shadow: 0 5px 5px -5px #e6dace;
+    color: #09567A;
 }
 /*Skillset and Languages*/
 .skillset{
@@ -131,11 +134,13 @@
     font-size: 20px;
     font-weight: bolder;
     margin-bottom: 5%;
+    color: #0B648D;
 }
 .skillsetBottomHeader{
     font-size: 20px;
     font-weight: bolder;
     margin-bottom: 5%;
+    color: #0B648D;
 }
 .skillsetTop{
     flex: 3;
@@ -160,13 +165,28 @@
 .skillsetBottomListItem{
     font-size: 15px;
 }
-.fas{
-    color: blue;
+.skillsetTopListItem > .fas{
+    color: #0B648D;
     margin-left: -15%;
     margin-right: 10px;
 }
-.fas-ul{
+.skillsetTopList > .fas-ul{
     column-count: 2;
     column-gap: 0px;
     list-style: none;
+}
+.skillsetTopListItem > .fas{
+    color: #0B648D;
+    margin-left: -15%;
+    margin-right: 10px;
+}
+.skillsetBottomList > .fas-ul{
+    column-count: 2;
+    column-gap: 0px;
+    list-style: none;
+}
+.skillsetBottomListItem > .fas{
+    color: #0B648D;
+    margin-left: -15%;
+    margin-right: 10px;
 }
