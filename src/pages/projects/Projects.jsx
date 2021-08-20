@@ -56,6 +56,27 @@ export default function Projects() {
                                     <div className="rectangle"></div>
                                 </div>
                                 <div className="projectsCardStageLeftTopHeaderR">
+                                    <div className="projectsCardHeader">Your Tastehouse</div>
+                                    <div className="projectsCardTitle">Front-End</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="projectsCardStageLeftBottom">
+                            <p>This website displays photos and videos of various dishes. (This site is coded in Turkish language.)<br/><br/><a href="https://lezzeteviniz.com/" className="entersite">Web Site</a>&nbsp;&nbsp;<a href="https://github.com/melihdizdar/your-tastehouse" className="entersite">My Repository</a></p>
+                        </div>
+                    </div>
+                    <div className="projectsCardStageRight">
+                        <Image src="https://www.serbestpiyasa.net/wp-content/uploads/2020/05/evden-yemek-satmak.jpg" className="image" rounded></Image>
+                    </div>
+                </div>
+                <div className="projectsCardStage">
+                    <div className="projectsCardStageLeft">
+                        <div className="projectsCardStageLeftTop">
+                            <div className="projectsCardStageLeftTopHeader">
+                                <div className="projectsCardStageLeftTopHeaderL">
+                                    <div className="rectangle"></div>
+                                </div>
+                                <div className="projectsCardStageLeftTopHeaderR">
                                     <div className="projectsCardHeader">CV Portfoilo Project</div>
                                     <div className="projectsCardTitle">Front-End</div>
                                 </div>
