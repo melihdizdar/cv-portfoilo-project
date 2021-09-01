@@ -80,32 +80,12 @@
     margin-top:8px;
 }
 @media screen and (max-width: 991px) {
-    .top{
-        width: 100%;
-        height: 70px;
-        background-color: white;
-        position: sticky;
-        top: 0;
-        display: flex;
-        align-items: center;
-        font-family: 'Roboto', sans-serif;
-        z-index: 1;
-    }
     .topText > .square{
         height: 15px;
         width: 15px;
         background-color: #0B648D;
         align-self: center;
     }
-    
-    .topLeft{
-        flex: 3;
-    }
-    
-    .topRight{
-        flex: 3;
-    }
-    
     .topList{
         display: flex;
         justify-content: center;
@@ -113,33 +93,6 @@
         padding: 0;
         list-style: none;
     }
-    
-    .topListItem{
-        margin-right: 20px;
-    }
-    .topListItem > a{
-        font-size: 15px;
-        font-weight: 300;
-        cursor: pointer;
-        text-decoration: none;
-        color:  #09567A;
-    }
-    .topListItem > a:hover{
-        font-size: 15px;
-        font-weight: 300;
-        cursor: pointer;
-        text-decoration: none;
-        color: #108CC6;
-        border-bottom: 1px solid #108CC6;
-    }
-    .topText{
-        display: flex;
-        justify-content: center;
-        margin:70px;
-        padding: 0;
-        list-style: none;
-    }
-    
     .topName{
         display: flex;
         list-style: none;
@@ -149,7 +102,6 @@
         font-family: 'Righteous', cursive;
         color: #0B648D;
     }
-    
     .topTitle{
         display: flex;
         justify-content: center;
@@ -162,43 +114,15 @@
     }
 }
 @media screen and (max-width: 767px) {
-    .top{
-        width: 100%;
-        height: 70px;
-        background-color: white;
-        position: sticky;
-        top: 0;
-        display: flex;
-        align-items: center;
-        font-family: 'Roboto', sans-serif;
-        z-index: 1;
-    }
     .topText > .square{
         height: 15px;
         width: 15px;
         background-color: #0B648D;
         align-self: center;
     }
-    
     .topLeft{
         flex: 3;
         margin-left: -20px;
-    }
-    
-    .topRight{
-        flex: 3;
-    }
-    
-    .topList{
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    
-    .topListItem{
-        margin-right: 20px;
     }
     .topListItem > a{
         font-size: 13px;
@@ -222,7 +146,6 @@
         padding: 0;
         list-style: none;
     }
-    
     .topName{
         display: flex;
         list-style: none;
@@ -245,41 +168,13 @@
     }
 }
 @media screen and (max-width: 479px) {
-    .top{
-        width: 100%;
-        height: 70px;
-        background-color: white;
-        position: sticky;
-        top: 0;
-        display: flex;
-        align-items: center;
-        font-family: 'Roboto', sans-serif;
-        z-index: 1;
-    }
     .topText > .square{
         height: 15px;
         width: 15px;
         background-color: #0B648D;
         align-self: center;
         display: none;
-    }
-    
-    .topLeft{
-        flex: 3;
-    }
-    
-    .topRight{
-        flex: 3;
-    }
-    
-    .topList{
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    
+    } 
     .topListItem{
         margin-right: 10px;
     }
@@ -305,7 +200,6 @@
         padding: 0;
         list-style: none;
     }
-    
     .topName{
         display: flex;
         list-style: none;
@@ -315,7 +209,6 @@
         font-family: 'Righteous', cursive;
         color: #0B648D;
     }
-    
     .topTitle{
         display: flex;
         justify-content: center;
