@@ -127,3 +127,17 @@ input:hover[type=text]{
     color: #108CC6;
     border-color: #108CC6;
 }
+@media screen and (max-width: 767px) {
+    .contactFormStage{
+        width: 100%;
+        height: 65%;
+        background-color:white;
+    }
+}
+@media screen and (max-width: 479px) {
+    .contactFormStage{
+        width: 100%;
+        height: 70%;
+        background-color:white;
+    }
+}

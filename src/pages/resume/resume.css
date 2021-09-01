@@ -190,3 +190,45 @@
     margin-left: -15%;
     margin-right: 10px;
 }
+@media screen and (max-width: 991px) {
+    .skillsetTopListItem > .fas{
+        color: #0B648D;
+        margin-left: -10%;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .skillsetTopListItem > .fas{
+        color: #0B648D;
+        margin-left: -15%;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .resumeLeft,.resumeRight{
+        flex: 1;
+    }
+    .resumeCenter{
+        flex: 8;
+    }
+    .experienceContent p{
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        color: #09567A;
+    }
+    .educationContent p{
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        color: #09567A;
+    }
+    .skillsetTopListItem{
+        font-size: 13px;
+    }
+    .skillsetBottomListItem{
+        font-size: 13px;
+    }
+}

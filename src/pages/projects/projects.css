@@ -8,15 +8,6 @@
 .projectsCenter{
     flex: 6;
 }
-/*slider*/
-.sliderStage{
-    margin-bottom: 15%;
-    
-}
-.slider{
-    width: 100%;
-    height: 400px;
-}
 /*header*/
 .projectsHeader{
     display: grid;
@@ -123,4 +114,24 @@
     font-family: 'Roboto', sans-serif;
     text-align: left;
     color: #09567a;
+}
+@media screen and (max-width: 767px) {
+    .projectsCardStage{
+        display: flex;
+        width: 100%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (max-width: 479px) {
+    .projectsLeft,.projectsRight{
+        flex: 1;
+    }
+    .projectsCenter{
+        flex: 8;
+    }
+    .projectsCardStage{
+        display: flex;
+        width: 100%;
+        margin-bottom: 40%;
+    }
 }

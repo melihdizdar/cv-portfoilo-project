@@ -139,3 +139,292 @@
   text-align: left;
   color: #09567A;
 }
+@media screen and (max-width: 767px) {
+  .aboutbg:before{
+    content:'';
+    position:fixed;
+    height: 100%;
+    width: 65%;
+    left: 35%;
+    background: white;
+  }
+  .about{
+    display: grid;
+    place-items: center;
+  }
+  .aboutme{
+    background-color: #108CC6;
+    width: 70%;
+    position: sticky;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+  /* Left */
+  .aboutmeLeft{
+    flex: 2;
+    background-color: #108CC6;
+    position: flex;
+    margin-top: 5%;
+  }
+  .Card{
+    border: none;
+    background-color:#108CC6;
+    border-style: none;
+    text-align: center;
+    align-items: center;
+  }
+  .image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .leftname{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: white;
+  }
+  .leftsurname{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: white;
+  }
+  .bar{
+    height:2px; 
+    width:30%; 
+    border-width:0; 
+    color:white; 
+    background-color:white;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .lefttitle{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-bottom: 25%;
+    color: white;
+  }
+  .sociallinks{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position:relative;
+    bottom:0;
+    letter-spacing: 7px;
+    display: grid;
+    place-items: center;
+  }
+  .sociallinkslist{
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: -5%;
+  }
+  .fab{
+    color: #09567A;
+  }
+  /* Right */
+  .aboutmeRight{
+    flex: 3;
+    background-color: white;
+    position: flex;
+  }
+  .rightItem{
+    position: grid;
+    grid: 3;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .rightHeader{
+    font-weight: bolder;
+    font-size: 75px;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    margin-top: -10px;
+    color: #108CC6;
+  }
+  .rightTitle{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    margin-top: 2px;
+    color: #09567A;
+  }
+  .rightButtons{
+    margin-top: 20px;
+  }
+  .rightButtons > .button{
+    border-radius: 50px;
+    background-color: #0a58ca;
+    color: white;
+    border-color: #0a58ca;
+    width: 140px;
+    height: 35px;
+  }
+  .rightButtons > .button:hover{
+    border-radius: 50px;
+    background-color: white;
+    color: #0a58ca;
+    border-color: #0a58ca;
+  }
+  .rightItem > p{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #09567A;
+  }
+}
+@media screen and (max-width: 479px) {
+  .aboutbg:before{
+    content:'';
+    position:fixed;
+    height: 100%;
+    width: 65%;
+    left: 35%;
+    background: white;
+  }
+  .about{
+    display: grid;
+    place-items: center;
+  }
+  .aboutme{
+    background-color: #108CC6;
+    width: 90%;
+    position: sticky;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: -5%;
+  }
+  /* Left */
+  .aboutmeLeft{
+    flex: 2;
+    background-color: #108CC6;
+    position: flex;
+    margin-top: 7%;
+  }
+  .Card{
+    border: none;
+    background-color:#108CC6;
+    border-style: none;
+    text-align: center;
+    align-items: center;
+  }
+  .image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .leftname{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: white;
+  }
+  .leftsurname{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    color: white;
+  }
+  .bar{
+    height:2px; 
+    width:30%; 
+    border-width:0; 
+    color:white; 
+    background-color:white;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .lefttitle{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-bottom: 25%;
+    color: white;
+  }
+  .sociallinks{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position:relative;
+    bottom:0;
+    letter-spacing: 4px;
+    display: grid;
+    place-items: center;
+  }
+  .sociallinkslist{
+    list-style: none;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: -5%;
+  }
+  .fab{
+    color: #09567A;
+  }
+  /* Right */
+  .aboutmeRight{
+    flex: 3;
+    background-color: white;
+    position: flex;
+  }
+  .rightItem{
+    position: grid;
+    grid: 3;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  .rightHeader{
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    margin-top: -10px;
+    color: #108CC6;
+  }
+  .rightTitle{
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    margin-top: 2px;
+    color: #09567A;
+  }
+  .rightButtons{
+    margin-top: 10px;
+  }
+  .rightButtons > .button{
+    border-radius: 50px;
+    background-color: #0a58ca;
+    color: white;
+    border-color: #0a58ca;
+    width: 80px;
+    height: 35px;
+  }
+  .rightButtons > .button:hover{
+    border-radius: 50px;
+    background-color: white;
+    color: #0a58ca;
+    border-color: #0a58ca;
+  }
+  .rightItem > p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #09567A;
+  }
+}

@@ -17,7 +17,7 @@ export default function Resume() {
                 <div className="experience">
                     <div className="experienceLeft">Experience</div>
                     <div className="experienceRight">
-                        <Button variant="primary" size="default" className="button">DOWNLOAD CV</Button>
+                        <Button variant="primary" size="default" className="button" href="https://dosya.co/sga580h4doz5/MelihCV.pdf.html">DOWNLOAD CV</Button>
                     </div>
                 </div>
                 <div className="experienceContent">
